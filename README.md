@@ -4,7 +4,7 @@ Model Context Protocol server providing access to Handsontable documentation for
 
 ## Overview
 
-This MCP server enables Claude and other AI assistants to access comprehensive Handsontable documentation, including guides, API references, and examples across multiple frameworks. Perfect for generating data grid implementations, troubleshooting issues, and learning Handsontable features.
+This MCP server enables Claude and other AI assistants to access comprehensive Handsontable documentation, including guides, API references, and examples across multiple frameworks. Live data is fetched directly from Handsontable docs, and returned as Markdown. 
 
 ## Features
 
