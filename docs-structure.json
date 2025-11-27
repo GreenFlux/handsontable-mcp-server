@@ -1,0 +1,457 @@
+{
+  "frameworks": [
+    "javascript",
+    "react",
+    "angular"
+  ],
+  "vueIntegrations": [
+    "vue2",
+    "vue3"
+  ],
+  "totalUrls": 563,
+  "apiEndpoints": [
+    "auto-column-size",
+    "auto-row-size",
+    "autofill",
+    "base-editor",
+    "base-plugin",
+    "bind-rows-with-headers",
+    "cell-coords",
+    "cell-range",
+    "changes-observer",
+    "collapsible-columns",
+    "column-sorting",
+    "column-summary",
+    "comments",
+    "context-menu",
+    "copy-paste",
+    "core",
+    "create-focus-scope-manager",
+    "create-shortcut-manager",
+    "custom-borders",
+    "data-map",
+    "dialog",
+    "drag-to-scroll",
+    "dropdown-menu",
+    "empty-data-state",
+    "event-manager",
+    "export-file",
+    "filters",
+    "focus-scope-manager",
+    "formulas",
+    "ghost-table",
+    "hidden-columns",
+    "hidden-rows",
+    "hiding-map",
+    "hooks",
+    "index-map",
+    "index-mapper",
+    "indexes-sequence",
+    "linked-physical-index-to-value-map",
+    "loading",
+    "manual-column-freeze",
+    "manual-column-move",
+    "manual-column-resize",
+    "manual-row-move",
+    "manual-row-resize",
+    "merge-cells",
+    "multi-column-sorting",
+    "nested-headers",
+    "nested-rows",
+    "options",
+    "pagination",
+    "persistent-state",
+    "physical-index-to-value-map",
+    "plugins",
+    "samples-generator",
+    "search",
+    "shortcut-context",
+    "shortcut-manager",
+    "stretch-columns",
+    "trim-rows",
+    "trimming-map",
+    "undo-redo"
+  ],
+  "guideTopics": [
+    "accessibility",
+    "autocomplete-cell-type",
+    "autofill-values",
+    "basic-clipboard",
+    "batch-operations",
+    "binding-to-data",
+    "bundle-size",
+    "cell-editor",
+    "cell-function",
+    "cell-renderer",
+    "cell-type",
+    "cell-validator",
+    "changelog",
+    "checkbox-cell-type",
+    "column-filter",
+    "column-freezing",
+    "column-groups",
+    "column-header",
+    "column-hiding",
+    "column-menu",
+    "column-moving",
+    "column-summary",
+    "column-virtualization",
+    "column-width",
+    "comments",
+    "conditional-formatting",
+    "configuration-options",
+    "context-menu",
+    "custom-builds",
+    "custom-plugins",
+    "custom-shortcuts",
+    "date-cell-type",
+    "demo",
+    "deprecation-policy",
+    "dialog",
+    "disabled-cells",
+    "documentation-license",
+    "dropdown-cell-type",
+    "empty-data-state",
+    "events-and-hooks",
+    "export-to-csv",
+    "focus-scopes",
+    "formatting-cells",
+    "formula-calculation",
+    "grid-size",
+    "handsontable-cell-type",
+    "handsontable-design-system",
+    "hot-column",
+    "icon-pack",
+    "ime-support",
+    "installation",
+    "instance-access",
+    "instance-methods",
+    "keyboard-shortcuts",
+    "language",
+    "layout-direction",
+    "legacy-style",
+    "license-key",
+    "loading",
+    "locale",
+    "long-term-support",
+    "merge-cells",
+    "migration-from-10.0-to-11.0",
+    "migration-from-11.1-to-12.0",
+    "migration-from-12.4-to-13.0",
+    "migration-from-13.1-to-14.0",
+    "migration-from-14.6-to-15.0",
+    "migration-from-15.3-to-16.0",
+    "migration-from-16.0-to-16.1",
+    "migration-from-7.4-to-8.0",
+    "migration-from-8.4-to-9.0",
+    "migration-from-9.0-to-10.0",
+    "modules",
+    "numeric-cell-type",
+    "packages",
+    "password-cell-type",
+    "performance",
+    "redux",
+    "row-freezing",
+    "row-header",
+    "row-height",
+    "row-hiding",
+    "row-moving",
+    "row-parent-child",
+    "row-prepopulating",
+    "row-trimming",
+    "row-virtualization",
+    "rows-pagination",
+    "rows-sorting",
+    "saving-data",
+    "searching-values",
+    "security",
+    "select-cell-type",
+    "selection",
+    "software-license",
+    "supported-browsers",
+    "testing",
+    "text-alignment",
+    "theme-customization",
+    "themes",
+    "third-party-licenses",
+    "time-cell-type",
+    "undo-redo",
+    "versioning-policy",
+    "vue-basic-example",
+    "vue-custom-context-menu-example",
+    "vue-custom-editor-example",
+    "vue-custom-id-class-style",
+    "vue-custom-renderer-example",
+    "vue-hot-column",
+    "vue-hot-reference",
+    "vue-installation",
+    "vue-language-change-example",
+    "vue-modules",
+    "vue-setting-up-a-translation",
+    "vue-vuex-example",
+    "vue3-basic-example",
+    "vue3-custom-context-menu-example",
+    "vue3-custom-editor-example",
+    "vue3-custom-id-class-style",
+    "vue3-custom-renderer-example",
+    "vue3-hot-column",
+    "vue3-hot-reference",
+    "vue3-installation",
+    "vue3-language-change-example",
+    "vue3-modules",
+    "vue3-setting-up-a-translation",
+    "vue3-vuex-example"
+  ],
+  "categories": [
+    {
+      "title": "Getting started",
+      "pageCount": 12,
+      "pages": [
+        "guides/getting-started/introduction/introduction",
+        "guides/getting-started/demo/demo",
+        "guides/getting-started/installation/installation",
+        "guides/getting-started/binding-to-data/binding-to-data",
+        "guides/getting-started/saving-data/saving-data",
+        "guides/getting-started/configuration-options/configuration-options",
+        "guides/getting-started/grid-size/grid-size",
+        "guides/getting-started/react-methods/react-methods",
+        "guides/getting-started/angular-hot-instance/angular-hot-instance",
+        "guides/getting-started/events-and-hooks/events-and-hooks",
+        "guides/getting-started/license-key/license-key",
+        "guides/getting-started/react-redux/react-redux"
+      ]
+    },
+    {
+      "title": "Styling",
+      "pageCount": 4,
+      "pages": [
+        "guides/styling/themes/themes",
+        "guides/styling/design-system/design-system",
+        "guides/styling/theme-customization/theme-customization",
+        "guides/styling/legacy-style/legacy-style"
+      ]
+    },
+    {
+      "title": "Columns",
+      "pageCount": 11,
+      "pages": [
+        "guides/columns/react-hot-column/react-hot-column",
+        "guides/columns/column-header/column-header",
+        "guides/columns/column-groups/column-groups",
+        "guides/columns/column-hiding/column-hiding",
+        "guides/columns/column-moving/column-moving",
+        "guides/columns/column-freezing/column-freezing",
+        "guides/columns/column-width/column-width",
+        "guides/columns/column-summary/column-summary",
+        "guides/columns/column-virtualization/column-virtualization",
+        "guides/columns/column-menu/column-menu",
+        "guides/columns/column-filter/column-filter"
+      ]
+    },
+    {
+      "title": "Rows",
+      "pageCount": 11,
+      "pages": [
+        "guides/rows/row-header/row-header",
+        "guides/rows/row-parent-child/row-parent-child",
+        "guides/rows/row-hiding/row-hiding",
+        "guides/rows/row-moving/row-moving",
+        "guides/rows/row-freezing/row-freezing",
+        "guides/rows/row-height/row-height",
+        "guides/rows/row-virtualization/row-virtualization",
+        "guides/rows/rows-sorting/rows-sorting",
+        "guides/rows/rows-pagination/rows-pagination",
+        "guides/rows/row-trimming/row-trimming",
+        "guides/rows/row-prepopulating/row-prepopulating"
+      ]
+    },
+    {
+      "title": "Cell features",
+      "pageCount": 9,
+      "pages": [
+        "guides/cell-features/clipboard/clipboard",
+        "guides/cell-features/selection/selection",
+        "guides/cell-features/merge-cells/merge-cells",
+        "guides/cell-features/conditional-formatting/conditional-formatting",
+        "guides/cell-features/text-alignment/text-alignment",
+        "guides/cell-features/disabled-cells/disabled-cells",
+        "guides/cell-features/comments/comments",
+        "guides/cell-features/autofill-values/autofill-values",
+        "guides/cell-features/formatting-cells/formatting-cells"
+      ]
+    },
+    {
+      "title": "Cell functions",
+      "pageCount": 4,
+      "pages": [
+        "guides/cell-functions/cell-function/cell-function",
+        "guides/cell-functions/cell-renderer/cell-renderer",
+        "guides/cell-functions/cell-editor/cell-editor",
+        "guides/cell-functions/cell-validator/cell-validator"
+      ]
+    },
+    {
+      "title": "Cell types",
+      "pageCount": 10,
+      "pages": [
+        "guides/cell-types/cell-type/cell-type",
+        "guides/cell-types/numeric-cell-type/numeric-cell-type",
+        "guides/cell-types/date-cell-type/date-cell-type",
+        "guides/cell-types/time-cell-type/time-cell-type",
+        "guides/cell-types/checkbox-cell-type/checkbox-cell-type",
+        "guides/cell-types/select-cell-type/select-cell-type",
+        "guides/cell-types/dropdown-cell-type/dropdown-cell-type",
+        "guides/cell-types/autocomplete-cell-type/autocomplete-cell-type",
+        "guides/cell-types/password-cell-type/password-cell-type",
+        "guides/cell-types/handsontable-cell-type/handsontable-cell-type"
+      ]
+    },
+    {
+      "title": "Formulas",
+      "pageCount": 1,
+      "pages": [
+        "guides/formulas/formula-calculation/formula-calculation"
+      ]
+    },
+    {
+      "title": "Navigation",
+      "pageCount": 4,
+      "pages": [
+        "guides/navigation/keyboard-shortcuts/keyboard-shortcuts",
+        "guides/navigation/custom-shortcuts/custom-shortcuts",
+        "guides/navigation/focus-scopes/focus-scopes",
+        "guides/navigation/searching-values/searching-values"
+      ]
+    },
+    {
+      "title": "Accessibility",
+      "pageCount": 1,
+      "pages": [
+        "guides/accessibility/accessibility/accessibility"
+      ]
+    },
+    {
+      "title": "Accessories and menus",
+      "pageCount": 5,
+      "pages": [
+        "guides/accessories-and-menus/context-menu/context-menu",
+        "guides/accessories-and-menus/undo-redo/undo-redo",
+        "guides/accessories-and-menus/icon-pack/icon-pack",
+        "guides/accessories-and-menus/export-to-csv/export-to-csv",
+        "guides/accessories-and-menus/empty-data-state/empty-data-state"
+      ]
+    },
+    {
+      "title": "Dialog",
+      "pageCount": 2,
+      "pages": [
+        "guides/dialog/dialog/dialog",
+        "guides/dialog/loading/loading"
+      ]
+    },
+    {
+      "title": "Internationalization",
+      "pageCount": 4,
+      "pages": [
+        "guides/internationalization/language/language",
+        "guides/internationalization/locale/locale",
+        "guides/internationalization/layout-direction/layout-direction",
+        "guides/internationalization/ime-support/ime-support"
+      ]
+    },
+    {
+      "title": "Integrate with Vue 2",
+      "pageCount": 12,
+      "pages": [
+        "guides/integrate-with-vue/vue-installation/vue-installation",
+        "guides/integrate-with-vue/vue-simple-example/vue-simple-example",
+        "guides/integrate-with-vue/vue-modules/vue-modules",
+        "guides/integrate-with-vue/vue-hot-column/vue-hot-column",
+        "guides/integrate-with-vue/vue-setting-up-a-language/vue-setting-up-a-language",
+        "guides/integrate-with-vue/vue-custom-id-class-style/vue-custom-id-class-style",
+        "guides/integrate-with-vue/vue-custom-context-menu-example/vue-custom-context-menu-example",
+        "guides/integrate-with-vue/vue-custom-editor-example/vue-custom-editor-example",
+        "guides/integrate-with-vue/vue-custom-renderer-example/vue-custom-renderer-example",
+        "guides/integrate-with-vue/vue-language-change-example/vue-language-change-example",
+        "guides/integrate-with-vue/vue-vuex-example/vue-vuex-example",
+        "guides/integrate-with-vue/vue-hot-reference/vue-hot-reference"
+      ]
+    },
+    {
+      "title": "Integrate with Vue 3",
+      "pageCount": 13,
+      "pages": [
+        "guides/integrate-with-vue3/vue3-installation/vue3-installation",
+        "guides/integrate-with-vue3/vue3-simple-example/vue3-simple-example",
+        "guides/integrate-with-vue3/vue3-modules/vue3-modules",
+        "guides/integrate-with-vue3/vue3-hot-column/vue3-hot-column",
+        "guides/integrate-with-vue3/vue3-setting-up-a-language/vue3-setting-up-a-language",
+        "guides/integrate-with-vue3/vue3-custom-id-class-style/vue3-custom-id-class-style",
+        "guides/integrate-with-vue3/vue3-custom-context-menu-example/vue3-custom-context-menu-example",
+        "guides/integrate-with-vue3/vue3-custom-editor-example/vue3-custom-editor-example",
+        "guides/integrate-with-vue3/vue3-custom-renderer-example/vue3-custom-renderer-example",
+        "guides/integrate-with-vue3/vue3-language-change-example/vue3-language-change-example",
+        "guides/integrate-with-vue3/vue3-vuex-example/vue3-vuex-example",
+        "guides/integrate-with-vue3/vue3-hot-reference/vue3-hot-reference",
+        "guides/integrate-with-vue3/vue3-formulas-example/vue3-formulas-example"
+      ]
+    },
+    {
+      "title": "Tools and building",
+      "pageCount": 5,
+      "pages": [
+        "guides/tools-and-building/packages/packages",
+        "guides/tools-and-building/modules/modules",
+        "guides/tools-and-building/custom-plugins/custom-plugins",
+        "guides/tools-and-building/custom-builds/custom-builds",
+        "guides/tools-and-building/testing/testing"
+      ]
+    },
+    {
+      "title": "Optimization",
+      "pageCount": 3,
+      "pages": [
+        "guides/optimization/batch-operations/batch-operations",
+        "guides/optimization/performance/performance",
+        "guides/optimization/bundle-size/bundle-size"
+      ]
+    },
+    {
+      "title": "Security",
+      "pageCount": 1,
+      "pages": [
+        "guides/security/security/security"
+      ]
+    },
+    {
+      "title": "Technical specification",
+      "pageCount": 4,
+      "pages": [
+        "guides/technical-specification/supported-browsers/supported-browsers",
+        "guides/technical-specification/software-license/software-license",
+        "guides/technical-specification/third-party-licenses/third-party-licenses",
+        "guides/technical-specification/documentation-license/documentation-license"
+      ]
+    },
+    {
+      "title": "Upgrade and migration",
+      "pageCount": 14,
+      "pages": [
+        "guides/upgrade-and-migration/changelog/changelog",
+        "guides/upgrade-and-migration/versioning-policy/versioning-policy",
+        "guides/upgrade-and-migration/deprecation-policy/deprecation-policy",
+        "guides/upgrade-and-migration/long-term-support/long-term-support",
+        "guides/upgrade-and-migration/migrating-from-16.0-to-16.1/migrating-from-16.0-to-16.1",
+        "guides/upgrade-and-migration/migrating-from-15.3-to-16.0/migrating-from-15.3-to-16.0",
+        "guides/upgrade-and-migration/migrating-from-14.6-to-15.0/migrating-from-14.6-to-15.0",
+        "guides/upgrade-and-migration/migrating-from-13.1-to-14.0/migrating-from-13.1-to-14.0",
+        "guides/upgrade-and-migration/migrating-from-12.4-to-13.0/migrating-from-12.4-to-13.0",
+        "guides/upgrade-and-migration/migrating-from-11.1-to-12.0/migrating-from-11.1-to-12.0",
+        "guides/upgrade-and-migration/migrating-from-10.0-to-11.0/migrating-from-10.0-to-11.0",
+        "guides/upgrade-and-migration/migrating-from-9.0-to-10.0/migrating-from-9.0-to-10.0",
+        "guides/upgrade-and-migration/migrating-from-8.4-to-9.0/migrating-from-8.4-to-9.0",
+        "guides/upgrade-and-migration/migrating-from-7.4-to-8.0/migrating-from-7.4-to-8.0"
+      ]
+    }
+  ]
+}
