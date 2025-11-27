@@ -25,12 +25,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/handsontable-mcp-server.git"
+    "url": "https://github.com/GreenFlux/handsontable-mcp-server.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/handsontable-mcp-server/issues"
+    "url": "https://github.com/GreenFlux/handsontable-mcp-server/issues"
   },
-  "homepage": "https://github.com/yourusername/handsontable-mcp-server#readme",
+  "homepage": "https://github.com/GreenFlux/handsontable-mcp-server#readme",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.4",
     "turndown": "^7.2.0",

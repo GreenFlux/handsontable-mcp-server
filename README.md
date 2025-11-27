@@ -41,7 +41,7 @@ This MCP server enables Claude and other AI assistants to access comprehensive H
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/handsontable-mcp-server.git
+git clone https://github.com/GreenFlux/handsontable-mcp-server.git
 cd handsontable-mcp-server
 ```
 
@@ -123,6 +123,8 @@ List all documentation categories and topics.
 ```
 Show me all Handsontable documentation categories
 ```
+
+See [DOCUMENTATION.md](DOCUMENTATION.md) for a complete reference of all 61 API endpoints, 128 guide topics, and 20 categories.
 
 ## Example Prompts
 
