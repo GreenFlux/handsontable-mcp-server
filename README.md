@@ -2,10 +2,6 @@
 
 Model Context Protocol server providing access to Handsontable documentation for AI-powered code generation.
 
-## Overview
-
-This MCP server enables Claude and other AI assistants to access comprehensive Handsontable documentation, including guides, API references, and examples across multiple frameworks. Live data is fetched directly from Handsontable docs, and returned as Markdown. 
-
 ## Features
 
 - **Three MCP Tools**
@@ -32,34 +28,23 @@ This MCP server enables Claude and other AI assistants to access comprehensive H
   - 20 documentation categories
   - 563 total pages
 
-## Requirements
+## Quick Setup
 
-- Node.js 18.0.0 or higher
-- npm or yarn
+### 1. Clone and Install
 
-## Installation
-
-1. Clone the repository:
 ```bash
 git clone https://github.com/GreenFlux/handsontable-mcp-server.git
 cd handsontable-mcp-server
-```
-
-2. Install dependencies:
-```bash
 npm install
 ```
 
-3. Run tests to verify installation:
-```bash
-npm test
-```
+### 2. Add to Claude Desktop
 
-## Usage with Claude Desktop
+**macOS:** Edit `~/Library/Application Support/Claude/claude_desktop_config.json`
 
-Add this server to your Claude Desktop configuration:
+**Windows:** Edit `%APPDATA%\Claude\claude_desktop_config.json`
 
-**macOS/Linux:** `~/Library/Application Support/Claude/claude_desktop_config.json`
+Replace `/absolute/path/to` with your actual path:
 
 ```json
 {
@@ -72,20 +57,13 @@ Add this server to your Claude Desktop configuration:
 }
 ```
 
-**Windows:** `%APPDATA%\Claude\claude_desktop_config.json`
+### 3. Restart Claude Desktop
 
-```json
-{
-  "mcpServers": {
-    "handsontable": {
-      "command": "node",
-      "args": ["C:\\absolute\\path\\to\\handsontable-mcp-server\\index.js"]
-    }
-  }
-}
-```
+The server starts automatically when Claude Desktop launches.
 
-After updating the config, restart Claude Desktop.
+## Using the Server
+
+Once connected, ask Claude about Handsontable:
 
 ## Available Tools
 
@@ -125,20 +103,6 @@ Show me all Handsontable documentation categories
 ```
 
 See [DOCUMENTATION.md](DOCUMENTATION.md) for a complete reference of all 61 API endpoints, 128 guide topics, and 20 categories.
-
-## Example Prompts
-
-**Basic Usage:**
-- "Show me how to implement column filtering in React using Handsontable"
-- "Get the Handsontable API reference for the Core class"
-- "Search for documentation about cell validation"
-
-**Advanced Usage:**
-- "Show me the Angular integration guide for Handsontable"
-- "Generate a code example using the Handsontable formula plugin"
-- "How do I customize the Handsontable theme?"
-
-See [examples/](examples/) for more detailed usage examples.
 
 ## Development
 
@@ -181,9 +145,6 @@ handsontable-mcp-server/
 ├── index.js                 # Main MCP server
 ├── test.js                  # Test suite
 ├── docs-structure.json      # Pre-analyzed docs
-├── examples/                # Usage examples
-│   ├── basic-usage.md
-│   └── advanced-usage.md
 ├── .github/
 │   └── workflows/
 │       └── ci.yml          # GitHub Actions
